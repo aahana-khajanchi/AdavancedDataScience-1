@@ -1,29 +1,20 @@
-# Assignment 2
-This assignment consists of the following activities:
+# Assignment 2 and 3
+
+## Introduction
+
+The assignment is divided into 8 Parts. Each of the solution is kept in their respective directory. A brief summary of the contents as follows:
+
+### Part 1:
 Making a summary of the following research papers
 	1. https://www.sciencedirect.com/science/article/pii/S0378778816308970?via%3Dihub
 	2. https://www.sciencedirect.com/science/article/pii/S1364032116307420
 	3. https://www.sciencedirect.com/science/article/pii/S0360544212002903
-
-# Team 1 assignment 2
-## TeamMembers:
-  1. Sreerag Mandakathil
-  2. Shreya Chudasama
-  3. Aaahana Khajanchi
-
-## Problem 1:
-Making a summary of the following research papers
-	1. https://www.sciencedirect.com/science/article/pii/S0378778816308970?via%3Dihub
-	2. https://www.sciencedirect.com/science/article/pii/S1364032116307420
-	3. https://www.sciencedirect.com/science/article/pii/S0360544212002903
-## Problem 2: 
+### Part 2: 
 
 
-## Abstract
+### Abstract
 
 
-### Contents
-The folder consists of 
 
 ### Exception Handling and Logging
 
@@ -32,4 +23,4 @@ The folder consists of
 2.	Process Followed : Data Ingestion, Data Wrangling, Data Cleansing, Exploratory Data Analysis
 3.	Tools used :  Jupyter Notebook, boto 3, boto, Amazon S3 bucket
 
-### For further Details please refer the _Documentation.pdf file
+### For further Details please refer the Assignment2_Documentation.pdf file

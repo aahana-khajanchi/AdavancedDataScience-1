@@ -1,10 +1,10 @@
 # Adavanced Data Science Assignments and Project Repository
 ADS Group Repository
 
-Maintained by 
-Sreerag Mandakathil 
-Shreya Chudasama
-Aahana Khajanchi
+## TeamMembers:
+  1. Sreerag Mandakathil
+  2. Shreya Chudasama
+  3. Aaahana Khajanchi
 
 Date of commence : Jan 2018
 
