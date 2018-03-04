@@ -27,8 +27,8 @@ import sys
 from boto.s3.key import Key
 f=0
 def uploadToS3(filePath):
-    AWS_ACCESS_KEY_ID = 'AKIAJ7NCU2JC2YSJNKYA'
-    AWS_SECRET_ACCESS_KEY = '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'
+    AWS_ACCESS_KEY_ID = ''
+    AWS_SECRET_ACCESS_KEY = ''
 
     bucket_name = AWS_ACCESS_KEY_ID.lower()
     conn = boto.connect_s3(AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY)
