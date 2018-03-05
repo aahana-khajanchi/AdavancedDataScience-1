@@ -1,0 +1,68 @@
+
+2018-03-05 13:38:23,117 - DEBUG - Importing Libraries
+2018-03-05 13:48:53,820 - DEBUG - Installing Libraries and Downloading 
+2018-03-05 13:54:32,169 - DEBUG - diff parser start
+2018-03-05 13:54:32,169 - DEBUG - diff parser calculated
+2018-03-05 13:54:32,169 - DEBUG - diff: line_lengths old: 27, new: 10
+2018-03-05 13:54:32,169 - DEBUG - diff insert old[1:0] new[1:1]
+2018-03-05 13:54:32,169 - DEBUG - parse_part from 1 to 1 (to 1 in part parser)
+2018-03-05 13:54:32,169 - DEBUG - diff equal old[1:2] new[2:3]
+2018-03-05 13:54:32,169 - DEBUG - diff actually copy 2 to 3
+2018-03-05 13:54:32,169 - DEBUG - diff delete old[3:3] new[4:3]
+2018-03-05 13:54:32,169 - DEBUG - diff equal old[4:4] new[4:4]
+2018-03-05 13:54:32,169 - DEBUG - parse_part from 4 to 5 (to 5 in part parser)
+2018-03-05 13:54:32,169 - DEBUG - diff replace old[5:25] new[5:8]
+2018-03-05 13:54:32,169 - DEBUG - parse_part from 6 to 10 (to 9 in part parser)
+2018-03-05 13:54:32,169 - DEBUG - diff equal old[26:26] new[9:9]
+2018-03-05 13:54:32,169 - DEBUG - diff replace old[27:27] new[10:10]
+2018-03-05 13:54:32,169 - DEBUG - diff parser end
+2018-03-05 13:54:40,208 - DEBUG - diff parser start
+2018-03-05 13:54:40,208 - DEBUG - diff parser calculated
+2018-03-05 13:54:40,208 - DEBUG - diff: line_lengths old: 10, new: 9
+2018-03-05 13:54:40,208 - DEBUG - diff delete old[1:1] new[1:0]
+2018-03-05 13:54:40,208 - DEBUG - diff equal old[2:3] new[1:2]
+2018-03-05 13:54:40,208 - DEBUG - diff actually copy 1 to 2
+2018-03-05 13:54:40,208 - DEBUG - diff replace old[4:7] new[3:6]
+2018-03-05 13:54:40,224 - DEBUG - parse_part from 3 to 9 (to 8 in part parser)
+2018-03-05 13:54:40,224 - DEBUG - diff equal old[8:9] new[7:8]
+2018-03-05 13:54:40,224 - DEBUG - diff replace old[10:10] new[9:9]
+2018-03-05 13:54:40,224 - DEBUG - diff parser end
+2018-03-05 13:56:56,534 - DEBUG - diff parser start
+2018-03-05 13:56:56,534 - DEBUG - diff parser calculated
+2018-03-05 13:56:56,534 - DEBUG - diff: line_lengths old: 9, new: 12
+2018-03-05 13:56:56,534 - DEBUG - diff equal old[1:2] new[1:2]
+2018-03-05 13:56:56,534 - DEBUG - diff actually copy 1 to 2
+2018-03-05 13:56:56,534 - DEBUG - diff replace old[3:3] new[3:4]
+2018-03-05 13:56:56,534 - DEBUG - parse_part from 3 to 11 (to 11 in part parser)
+2018-03-05 13:56:56,534 - DEBUG - diff equal old[4:4] new[5:5]
+2018-03-05 13:56:56,534 - DEBUG - diff replace old[5:6] new[6:6]
+2018-03-05 13:56:56,534 - DEBUG - diff equal old[7:8] new[7:8]
+2018-03-05 13:56:56,534 - DEBUG - diff replace old[9:9] new[9:12]
+2018-03-05 13:56:56,534 - DEBUG - diff parser end
+2018-03-05 14:44:40,107 - DEBUG - Installing Libraries and Downloading 
+2018-03-05 14:45:37,491 - DEBUG - Importing Libraries
+2018-03-05 14:45:40,116 - DEBUG - Loading Data into Dataframe
+2018-03-05 14:45:43,408 - DEBUG - Added Number of Seconds From Midnight column 
+2018-03-05 14:45:47,295 - DEBUG - Number of Null values
+2018-03-05 14:46:00,548 - DEBUG - Pair plots for T1, RH_1, T2, RH_2, T3, RH_3, Appliances and Lights
+2018-03-05 14:47:11,134 - DEBUG - Heat map for T1, RH_1, T2, RH_2, T3, RH_3, Appliances and Lights
+2018-03-05 14:47:15,510 - DEBUG - Pair plots for T4, RH_4, T5, RH_5, T6, RH_6 and Appliances 
+2018-03-05 14:47:16,116 - DEBUG - Heat map for T4, RH_4, T5, RH_5, T6, RH_6 and Appliances 
+2018-03-05 14:47:23,688 - DEBUG - Pair plot for T7, RH_7, T8, RH_8, T9, RH_9and Appliances 
+2018-03-05 14:47:44,653 - DEBUG - Heat map for T7, RH_7, T8, RH_8, T9, RH_9and Appliances 
+2018-03-05 14:47:45,387 - DEBUG - Heat map for T7, RH_7, T8, RH_8, T9, RH_9and Appliances 
+2018-03-05 14:48:14,344 - DEBUG - Heat map for T_out, RH_out, Press, Windspeed, Visibility, Tdewpoint, T6 and Appliances 
+2018-03-05 14:48:15,058 - DEBUG - Checking any Missing Value 
+2018-03-05 14:48:16,018 - DEBUG - Creating table using pivottable 
+2018-03-05 14:48:16,996 - DEBUG - Used Pandas profiling for overall Observation of the dataset  
+2018-03-05 14:48:35,049 - DEBUG - Pair plots for T4, RH_4, T5, RH_5, T6, RH_6 and Appliances 
+2018-03-05 14:50:20,886 - DEBUG - Pair plots for T4, RH_4, T5, RH_5, T6, RH_6 and Appliances 
+2018-03-05 14:51:09,711 - DEBUG - Heat map for T4, RH_4, T5, RH_5, T6, RH_6 and Appliances 
+2018-03-05 14:51:45,508 - DEBUG - Creating table using pivottable 
+2018-03-05 14:51:49,303 - DEBUG - Used Pandas profiling for overall Observation of the dataset  
+2018-03-05 14:52:21,038 - DEBUG - Creating table using pivottable 
+2018-03-05 14:52:23,648 - DEBUG - Used Pandas profiling for overall Observation of the dataset  
+2018-03-05 14:53:53,303 - DEBUG - Creating table using pivottable 
+2018-03-05 14:53:58,850 - DEBUG - Used Pandas profiling for overall Observation of the dataset  
+2018-03-05 14:54:39,676 - DEBUG - Creating table using pivottable 
+2018-03-05 14:55:07,356 - DEBUG - Used Pandas profiling for overall Observation of the dataset  
