@@ -7,10 +7,10 @@ The summary consists of the following research papers
 
 They are kept in their designaed folders as jupyter notebooks
 
-#Docker system commands
+# Docker system commands
 1. First note the docker IP 
 
-2. he run the docker command : 
+2. Then run the docker command : 
 	1. docker built -f Dockerfile . -t \<image\>:tag
 	2. docker run -it -p 8888:8888 \<image\>:tag
 

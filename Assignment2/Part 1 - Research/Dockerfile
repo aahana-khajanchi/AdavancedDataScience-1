@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 
 RUN mkdir -p /usr/src/team1assignment2
-WORKDIR /usr/src/team1assignment2
+WORKDIR /usr/src/team1assignment2/Result
 
 RUN apt-get update -y
 RUN apt-get install python3 python3-pip -y
@@ -26,6 +26,6 @@ RUN pip3 install jupyter
 #ENV akey 1
 #ENV skey 1
 #ENV sl 1
-
+RUN jupyter nbextension enable --py --sys-prefix widgetsnbextension
 CMD jupyter notebook --ip=0.0.0.0 --no-browser --allow-root
 #CMD ["sh","-c","python /usr/src/team5assignment1/Research_paper_1.py --cik ${ck} --acn ${ac} --akey ${akey} --skey ${skey} --s3loc ${sl}"] 
