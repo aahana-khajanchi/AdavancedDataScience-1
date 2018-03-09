@@ -106,3 +106,16 @@
 2018-03-06 00:41:34,590 - DEBUG - Heat map for T1, RH_1, T2, RH_2, T3, RH_3, Appliances and Lights
 2018-03-06 00:42:07,759 - DEBUG - Creating table using pivottable 
 2018-03-06 01:13:59,900 - DEBUG - pickle loaded: C:\Users\sreer\Anaconda3\envs\learn_python\lib\site-packages\pandas\core\frame.py
+2018-03-07 18:41:56,075 - DEBUG - Loading Data into Dataframe
+2018-03-07 18:41:57,792 - DEBUG - Added Number of Seconds From Midnight column 
+2018-03-07 18:41:58,411 - DEBUG - Number of Null values
+2018-03-07 18:43:36,678 - DEBUG - Pair plots for T1, RH_1, T2, RH_2, T3, RH_3, Appliances and Lights
+2018-03-07 18:44:11,531 - DEBUG - Heat map for T1, RH_1, T2, RH_2, T3, RH_3, Appliances and Lights
+2018-03-07 18:44:43,619 - DEBUG - Pair plots for T4, RH_4, T5, RH_5, T6, RH_6 and Appliances 
+2018-03-07 18:45:08,788 - DEBUG - Heat map for T4, RH_4, T5, RH_5, T6, RH_6 and Appliances 
+2018-03-07 18:45:09,690 - DEBUG - Pair plot for T7, RH_7, T8, RH_8, T9, RH_9and Appliances 
+2018-03-07 18:45:33,302 - DEBUG - Heat map for T7, RH_7, T8, RH_8, T9, RH_9and Appliances 
+2018-03-07 18:45:34,133 - DEBUG - Pair Plot for T7, RH_7, T8, RH_8, T9, RH_9and Appliances 
+2018-03-07 18:46:08,688 - DEBUG - Heat map for T_out, RH_out, Press, Windspeed, Visibility, Tdewpoint, T6 and Appliances 
+2018-03-07 18:50:42,659 - DEBUG - Checking any Missing Value 
+2018-03-07 18:50:44,671 - DEBUG - Creating table using pivottable 
