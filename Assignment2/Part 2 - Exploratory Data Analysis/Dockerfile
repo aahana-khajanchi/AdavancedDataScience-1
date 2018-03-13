@@ -8,7 +8,7 @@ RUN apt-get update -y
 RUN apt-get install python3 python3-pip -y
 
 
-COPY Assignment2.ipynb /usr/src/team1assignment2/Assignment2.ipynb
+COPY EDA.ipynb /usr/src/team1assignment2/EDA.ipynb
 COPY Assignment2-EDA-clean.ipynb /usr/src/team1assignment2/Assignment2-EDA-clean.ipynb
 COPY Dataset/. /usr/src/team1assignment2/Dataset
 RUN pip3 install jupyter

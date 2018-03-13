@@ -146,7 +146,7 @@ energy_data$my <- floor_date(energy_data$date,"month")
 
 energy_data$mhr <- floor_date(energy_data$date,"hour")
 
-library(plyr)
+library(plyr)     #plyr: Tools for Splitting, Applying and Combining Data
 energy_data_Total_per_hour <-  ddply(energy_data, "mhr", summarise,
                                      Appliances=sum(Appliances))
 
@@ -158,17 +158,17 @@ head(energy_data_Total_per_hour)
 
 class(energy_data_Total_per_hour)
 summary(energy_data_Total_per_hour)
-energy_data_Total_per_hour_na_removed <- na.omit(energy_data_Total_per_hour)
+energy_data_Total_per_hour_na_removed <- na.omit(energy_data_Total_per_hour)    #Remove Rows With Missing Values On Columns Specified
 
-dim(energy_data_Total_per_hour)
-names(energy_data_Total_per_hour)
+dim(energy_data_Total_per_hour)         #dimension of an object, x can be array, matrix or dataframe
+names(energy_data_Total_per_hour)       #Functions to get or set the names of an object.
 dim(energy_data_Total_per_hour_na_removed)
 names(energy_data_Total_per_hour_na_removed)
 summary(energy_data_Total_per_hour_na_removed)
 
 
 # getting now the week of the year
-energy_data_Total_per_hour_na_removed$week_year <- week(energy_data_Total_per_hour_na_removed$mhr)
+energy_data_Total_per_hour_na_removed$week_year <- week(energy_data_Total_per_hour_na_removed$mhr)      #mhr is for hour
 head(energy_data_Total_per_hour_na_removed)
 
 unique(energy_data_Total_per_hour_na_removed$week_year)
@@ -201,11 +201,13 @@ gg1
 
 library(viridis)
 library(ggthemes)
-#gg1 <- gg1 +scale_fill_viridis(name="Appliances energy",option="A")
+#gg1 <- gg1 +scale_fill_viridis(name="Appliances energy",option="A")        ## option A character string indicating the colormap option to use. Four options are available:"magma" (or "A"), "inferno" (or "B"), "plasma" (or "C"),"viridis" (or "D",
+                                                                            ## the default option) and "cividis" (or "E").
 #gg <- gg +scale_y_continuous(breaks=seq(0,23,1),trans="reverse")
 gg1 <- gg1 +scale_y_continuous(breaks=seq(0,23,1)) 
 
 gg1
+
 
 
 gg1 <- gg1 + coord_equal()
@@ -487,7 +489,7 @@ dim(test_data2)
 
 
 
-# adding dummy variables to use rfe from caret
+# adding dummy variables to use rfe from caret             # Creating dummies for categorical variables
 
 library(dummies)
 str(train_data)
@@ -564,8 +566,12 @@ fitControl <- trainControl(method = "repeatedcv", # cv
                            verboseIter = TRUE,returnResamp = "all")
 
 gbmGrid <-  expand.grid(interaction.depth = c(1,3,5),
-                        n.trees = seq(100,10901,400),
-                        shrinkage = 0.1,
+                        n.trees = seq(100,10901,400),               ##he number of iterations, T (n.trees)
+                        shrinkage = 0.1,                            ##My rule
+                                                                    ##of thumb is to set shrinkage as small as possible while still being able to fit
+                                                                    ##the model in a reasonable amount of time and storage. I usually aim for 3,000
+                                                                    ##to 10,000 iterations with shrinkage rates between 0.01 and 0.001.
+
                         n.minobsinnode = c(10))
 
 
