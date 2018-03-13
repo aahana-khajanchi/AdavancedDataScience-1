@@ -10,6 +10,7 @@ RUN apt-get install python3 python3-pip -y
 
 COPY Research_Paper_1/. /usr/src/team1assignment2/
 COPY Research_Paper_2/. /usr/src/team1assignment2/
+COPY Research_Paper_3/. /usr/src/team1assignment2/
 RUN pip3 install jupyter
 #RUN pip3 install pandas
 #RUN pip3 install boto3
