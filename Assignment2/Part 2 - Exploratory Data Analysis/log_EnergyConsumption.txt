@@ -119,28 +119,8 @@
 2018-03-07 18:46:08,688 - DEBUG - Heat map for T_out, RH_out, Press, Windspeed, Visibility, Tdewpoint, T6 and Appliances 
 2018-03-07 18:50:42,659 - DEBUG - Checking any Missing Value 
 2018-03-07 18:50:44,671 - DEBUG - Creating table using pivottable 
-2018-03-10 19:47:18,836 - DEBUG - Loading Data into Dataframe
-2018-03-10 19:47:19,880 - DEBUG - Added Number of Seconds From Midnight column 
-2018-03-10 19:47:20,443 - DEBUG - Number of Null values
-2018-03-10 19:47:21,255 - DEBUG - Checking any Missing Value 
-2018-03-10 21:33:58,473 - DEBUG - pickle loaded: C:\Users\Nikesh\Anaconda3\envs\ADS_Assign2\lib\site-packages\pandas\core\frame.py
-2018-03-10 21:51:31,609 - DEBUG - diff parser start
-2018-03-10 21:51:31,609 - DEBUG - diff parser calculated
-2018-03-10 21:51:31,609 - DEBUG - diff: line_lengths old: 4, new: 12
-2018-03-10 21:51:31,609 - DEBUG - diff equal old[1:2] new[1:2]
-2018-03-10 21:51:31,609 - DEBUG - diff actually copy 1 to 2
-2018-03-10 21:51:31,613 - DEBUG - diff replace old[3:4] new[3:12]
-2018-03-10 21:51:31,615 - DEBUG - parse_part from 3 to 11 (to 11 in part parser)
-2018-03-10 21:51:31,615 - DEBUG - diff parser end
-2018-03-11 00:44:16,015 - DEBUG - Loading Data into Dataframe
-2018-03-11 00:44:21,591 - DEBUG - Added Number of Seconds From Midnight column 
-2018-03-11 00:44:22,547 - DEBUG - Number of Null values
-2018-03-11 03:32:27,623 - DEBUG - Loading Data into Dataframe
-2018-03-11 03:32:43,501 - DEBUG - Added Number of Seconds From Midnight column 
-2018-03-11 03:33:29,774 - DEBUG - Number of Null values
-2018-03-11 03:33:50,842 - DEBUG - Number of Null values
-2018-03-11 03:34:01,843 - DEBUG - Number of Null values
-2018-03-11 05:42:21,303 - DEBUG - Loading Data into Dataframe
-2018-03-11 05:42:22,332 - DEBUG - Added Number of Seconds From Midnight column 
-2018-03-11 05:42:24,029 - DEBUG - Number of Null values
-2018-03-11 06:00:12,365 - DEBUG - Creating table using pivottable 
+2018-03-12 19:51:53,773 - DEBUG - Loading Data into Dataframe
+2018-03-12 19:51:57,537 - DEBUG - Added Number of Seconds From Midnight column 
+2018-03-12 19:51:58,587 - DEBUG - Number of Null values
+2018-03-12 19:52:00,503 - DEBUG - Pair plots for T1, RH_1, T2, RH_2, T3, RH_3, Appliances and Lights
+2018-03-12 19:52:25,375 - DEBUG - Heat map for T1, RH_1, T2, RH_2, T3, RH_3, Appliances and Lights
