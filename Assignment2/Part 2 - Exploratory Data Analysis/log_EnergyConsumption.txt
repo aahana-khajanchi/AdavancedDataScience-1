@@ -124,3 +124,8 @@
 2018-03-12 19:51:58,587 - DEBUG - Number of Null values
 2018-03-12 19:52:00,503 - DEBUG - Pair plots for T1, RH_1, T2, RH_2, T3, RH_3, Appliances and Lights
 2018-03-12 19:52:25,375 - DEBUG - Heat map for T1, RH_1, T2, RH_2, T3, RH_3, Appliances and Lights
+2018-03-15 20:17:38,049 - DEBUG - Loading Data into Dataframe
+2018-03-15 20:17:38,405 - DEBUG - Added Number of Seconds From Midnight column 
+2018-03-15 20:17:38,461 - DEBUG - Number of Null values
+2018-03-15 20:17:51,194 - DEBUG - Checking any Missing Value 
+2018-03-15 20:17:52,074 - DEBUG - Creating table using pivottable 
