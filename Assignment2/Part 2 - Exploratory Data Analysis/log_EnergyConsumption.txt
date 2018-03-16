@@ -119,3 +119,6 @@
 2018-03-07 18:46:08,688 - DEBUG - Heat map for T_out, RH_out, Press, Windspeed, Visibility, Tdewpoint, T6 and Appliances 
 2018-03-07 18:50:42,659 - DEBUG - Checking any Missing Value 
 2018-03-07 18:50:44,671 - DEBUG - Creating table using pivottable 
+2018-03-16 15:48:23,674 - DEBUG - Loading Data into Dataframe
+2018-03-16 15:48:25,078 - DEBUG - Added Number of Seconds From Midnight column 
+2018-03-16 15:48:25,543 - DEBUG - Number of Null values
