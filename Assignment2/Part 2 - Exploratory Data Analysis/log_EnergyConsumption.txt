@@ -119,21 +119,3 @@
 2018-03-07 18:46:08,688 - DEBUG - Heat map for T_out, RH_out, Press, Windspeed, Visibility, Tdewpoint, T6 and Appliances 
 2018-03-07 18:50:42,659 - DEBUG - Checking any Missing Value 
 2018-03-07 18:50:44,671 - DEBUG - Creating table using pivottable 
-2018-03-12 19:51:53,773 - DEBUG - Loading Data into Dataframe
-2018-03-12 19:51:57,537 - DEBUG - Added Number of Seconds From Midnight column 
-2018-03-12 19:51:58,587 - DEBUG - Number of Null values
-2018-03-12 19:52:00,503 - DEBUG - Pair plots for T1, RH_1, T2, RH_2, T3, RH_3, Appliances and Lights
-2018-03-12 19:52:25,375 - DEBUG - Heat map for T1, RH_1, T2, RH_2, T3, RH_3, Appliances and Lights
-2018-03-15 20:41:30,645 - DEBUG - Loading Data into Dataframe
-2018-03-15 20:41:32,267 - DEBUG - Added Number of Seconds From Midnight column 
-2018-03-15 20:41:32,680 - DEBUG - Number of Null values
-2018-03-15 20:41:43,977 - DEBUG - Checking any Missing Value 
-2018-03-15 20:41:46,864 - DEBUG - Creating table using pivottable 
-2018-03-15 21:51:29,071 - DEBUG - Loading Data into Dataframe
-2018-03-15 21:51:30,333 - DEBUG - Added Number of Seconds From Midnight column 
-2018-03-15 21:51:30,920 - DEBUG - Number of Null values
-2018-03-15 21:51:41,364 - DEBUG - Checking any Missing Value 
-2018-03-15 21:51:42,408 - DEBUG - Creating table using pivottable 
-2018-03-15 23:21:48,591 - DEBUG - Loading Data into Dataframe
-2018-03-15 23:21:50,332 - DEBUG - Added Number of Seconds From Midnight column 
-2018-03-15 23:21:50,865 - DEBUG - Number of Null values
