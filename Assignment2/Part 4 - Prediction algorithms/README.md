@@ -38,5 +38,8 @@ season - spring and winter
 #### User Defined Functions 
 evaluate_model() - To calculate RMSE(Root Mean Squared Error), R^2, MAE(Mean Absolute Error) and MAPE(Mean Absolute Percentage Error)
 
+#### Observations
+We found out that Random Forest Regression gives better result wil R2 = 0.9 in training data and R2 = 0.6 in testing data
+
 
 ### For further Details please refer the Assignment2_Documentation.pdf file
