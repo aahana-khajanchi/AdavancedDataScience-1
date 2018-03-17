@@ -122,8 +122,6 @@ def get_season(now):
     return next(season for season, (start, end) in seasons
                 if start <= now <= end)
 
-print(get_season(data['date_time'][19734]))
-
 
 # In[18]:
 
