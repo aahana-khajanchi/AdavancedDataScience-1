@@ -23,7 +23,7 @@ The assignment is divided into 8 Parts. Each of the solution is kept in their re
 ### INFO
 1.	Language used : Python
 2.	Process Followed : Data Ingestion, Data Wrangling, Data Cleansing, Exploratory Data Analysis
-3.	Tools used :  Jupyter Notebook, boto 3, boto, Amazon S3 bucket
+3.	Tools used :  Jupyter Notebook
 
 ### The library list
 The library requirement list is written in the requirements.txt file for easy execution
