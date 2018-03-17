@@ -1,0 +1,13 @@
+2018-03-16 19:27:52,709 - DEBUG - Loading Data into Dataframe
+2018-03-16 19:28:04,713 - DEBUG - Loading Data into Dataframe
+2018-03-16 19:28:04,885 - DEBUG - Data Size(19735, 29)
+2018-03-16 19:28:21,085 - DEBUG - Program Started
+2018-03-16 19:28:23,281 - DEBUG - Loading Data into Dataframe
+2018-03-16 19:28:23,448 - DEBUG - Data Size(19735, 29)
+2018-03-16 19:28:45,481 - DEBUG - Program Started
+2018-03-16 19:28:46,438 - DEBUG - Loading Data into Dataframe
+2018-03-16 19:28:46,618 - DEBUG - Data Size(19735, 29)
+2018-03-16 19:34:11,019 - DEBUG - Program Started
+2018-03-16 19:34:11,223 - DEBUG - Loading Data into Dataframe
+2018-03-16 19:34:11,391 - DEBUG - Data Size(19735, 29)
+2018-03-16 19:34:11,407 - DEBUG - Tranforming date time
