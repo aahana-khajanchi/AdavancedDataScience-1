@@ -1,26 +1,42 @@
-# Assignment 2 and 3
 
-## Introduction
+### Part - 4 Prediction Algorithms
 
-The assignment is divided into 8 Parts. Each of the solution is kept in their respective directory. A brief summary of the contents as follows:
+#### Libraries Used
+sklearn.metrics
+sklearn.cross_validation
+sklearn.model_selection - used for Linear Regression
+statsmodels.api - used for Multiple Linear Regression
+sklearn.tree - used for DecisionTreeClassifier
+sklearn.ensemble - used for RandomForestClassifier
+xgboost - used for XGBoostClassifier
+sklearn.ensemble.GradientBoostingClassifier
+sklearn.preprocessing - used for calculating MinMaxScaler
+sklearn.cluster.KMeans - used for k-means Clustering
+sklearn.linear_model.LogisticRegression
+from sklearn.naive_bayes import GaussianNB
+from sklearn.svm import SVC
+from sklearn.metrics import confusion_matrix - to detect the truth value of our data
+from sklearn.metrics import classification_report
 
-### Part 1:
-Making a summary of the following research papers
-	1. https://www.sciencedirect.com/science/article/pii/S0378778816308970?via%3Dihub
-	2. https://www.sciencedirect.com/science/article/pii/S1364032116307420
-	3. https://www.sciencedirect.com/science/article/pii/S0360544212002903
-### Part 2: 
+###### Keras TensorFlow
+keras.models import Sequential
+keras.layers import LSTM
+keras.layers import Dense
+###### Gradient Boosting Regressor
+from sklearn.ensemble import GradientBoostingRegressor  
+from sklearn.cross_validation import LeaveOneLabelOut
+from sklearn.grid_search import GridSearchCV
+
+#### Added Dummy Variables-
+timeofDay - Day and Night
+activeStatus - awake and sleep
+dayoftheweek - Monday to Sunday
+WeekDayType - WeekDay and Weekend
+season - spring and winter
 
 
-### Abstract
+#### User Defined Functions 
+evaluate_model() - To calculate RMSE(Root Mean Squared Error), R^2, MAE(Mean Absolute Error) and MAPE(Mean Absolute Percentage Error)
 
-
-
-### Exception Handling and Logging
-
-### INFO
-1.	Language used : Python
-2.	Process Followed : Data Ingestion, Data Wrangling, Data Cleansing, Exploratory Data Analysis
-3.	Tools used :  Jupyter Notebook, boto 3, boto, Amazon S3 bucket
 
 ### For further Details please refer the Assignment2_Documentation.pdf file
