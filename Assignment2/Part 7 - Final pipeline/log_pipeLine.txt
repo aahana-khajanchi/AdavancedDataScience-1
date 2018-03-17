@@ -1,0 +1,59 @@
+2018-03-16 19:54:44,629 - DEBUG - Program Started
+2018-03-16 19:54:45,281 - DEBUG - Loading Data into Dataframe
+2018-03-16 19:54:45,457 - DEBUG - Data Size(19735, 29)
+2018-03-16 19:54:45,485 - DEBUG - Tranforming date time
+2018-03-16 20:24:09,145 - DEBUG - Program Started
+2018-03-16 20:24:09,338 - DEBUG - Loading Data into Dataframe
+2018-03-16 20:24:09,508 - DEBUG - Data Size(19735, 29)
+2018-03-16 20:24:09,527 - DEBUG - Tranforming date time
+2018-03-16 20:26:21,692 - DEBUG - pickle loaded: C:\Users\sreer\Anaconda3\envs\learn_python\lib\site-packages\sklearn\ensemble\forest.py
+2018-03-16 20:26:21,699 - DEBUG - pickle loaded: C:\Users\sreer\Anaconda3\envs\learn_python\lib\site-packages\sklearn\__init__.py
+2018-03-16 20:26:21,704 - DEBUG - pickle loaded: C:\Users\sreer\Anaconda3\envs\learn_python\lib\site-packages\sklearn\externals\__init__.py
+2018-03-16 20:26:21,718 - DEBUG - pickle loaded: C:\Users\sreer\Anaconda3\envs\learn_python\lib\site-packages\sklearn\externals\six.py
+2018-03-16 20:26:21,730 - DEBUG - pickle loaded: C:\Users\sreer\Anaconda3\envs\learn_python\lib\abc.py
+2018-03-16 20:36:18,189 - DEBUG - Program Started
+2018-03-16 20:36:18,200 - DEBUG - Loading Data into Dataframe
+2018-03-16 20:36:18,399 - DEBUG - Data Size(19735, 29)
+2018-03-16 20:36:18,404 - DEBUG - Tranforming date time
+2018-03-16 20:36:18,655 - DEBUG - Creating column Day of the week
+2018-03-16 20:36:18,873 - DEBUG - Creating column weekdaytype
+2018-03-16 20:36:22,314 - DEBUG - Creating column activeStatus
+2018-03-16 20:36:24,936 - DEBUG - Creating column Number of seconds to midnight
+2018-03-16 20:36:25,038 - DEBUG - Creating column Season
+2018-03-16 20:36:25,139 - DEBUG - Creating Dummy Column
+2018-03-16 20:42:42,728 - DEBUG - Program Started
+2018-03-16 20:42:42,728 - DEBUG - Loading Data into Dataframe
+2018-03-16 20:42:42,896 - DEBUG - Data Size(19735, 29)
+2018-03-16 20:42:42,896 - DEBUG - Tranforming date time
+2018-03-16 20:42:42,901 - DEBUG - Creating column Day of the week
+2018-03-16 20:42:42,951 - DEBUG - Creating column weekdaytype
+2018-03-16 20:42:45,488 - DEBUG - Creating column activeStatus
+2018-03-16 20:42:48,004 - DEBUG - Creating column Number of seconds to midnight
+2018-03-16 20:42:48,054 - DEBUG - Creating column Season
+2018-03-16 20:42:48,118 - DEBUG - Creating Dummy Column
+2018-03-16 20:45:18,960 - DEBUG - Program Started
+2018-03-16 20:45:18,961 - DEBUG - Loading Data into Dataframe
+2018-03-16 20:45:19,135 - DEBUG - Data Size(19735, 29)
+2018-03-16 20:45:19,135 - DEBUG - Tranforming date time
+2018-03-16 20:45:19,140 - DEBUG - Creating column Day of the week
+2018-03-16 20:45:19,193 - DEBUG - Creating column weekdaytype
+2018-03-16 20:45:21,756 - DEBUG - Creating column activeStatus
+2018-03-16 20:45:24,251 - DEBUG - Creating column Number of seconds to midnight
+2018-03-16 20:45:24,302 - DEBUG - Creating column Season
+2018-03-16 20:45:24,365 - DEBUG - Creating Dummy Column
+2018-03-16 20:45:35,058 - DEBUG - R-squared for Train: 0.94
+2018-03-16 20:45:35,368 - DEBUG - R-squared for Test: 0.58
+2018-03-16 20:45:35,368 - DEBUG - Process complete
+2018-03-16 20:46:53,582 - DEBUG - Program Started
+2018-03-16 20:46:53,582 - DEBUG - Loading Data into Dataframe
+2018-03-16 20:46:53,750 - DEBUG - Data Size(19735, 29)
+2018-03-16 20:46:53,750 - DEBUG - Tranforming date time
+2018-03-16 20:46:53,755 - DEBUG - Creating column Day of the week
+2018-03-16 20:46:53,807 - DEBUG - Creating column weekdaytype
+2018-03-16 20:46:56,461 - DEBUG - Creating column activeStatus
+2018-03-16 20:46:58,999 - DEBUG - Creating column Number of seconds to midnight
+2018-03-16 20:46:59,050 - DEBUG - Creating column Season
+2018-03-16 20:46:59,114 - DEBUG - Creating Dummy Column
+2018-03-16 20:47:09,700 - DEBUG - R-squared for Train: 0.95
+2018-03-16 20:47:10,031 - DEBUG - R-squared for Test: 0.60
+2018-03-16 20:47:10,031 - DEBUG - Process complete
