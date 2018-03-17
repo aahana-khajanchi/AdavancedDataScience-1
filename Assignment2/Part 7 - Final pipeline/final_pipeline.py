@@ -4,9 +4,10 @@ import numpy as np
 import datetime
 import logging
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import RandomForestRegressor, ExtraTreesClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.pipeline import make_pipeline
+from sklearn.pipeline import Pipeline
+from sklearn.feature_selection import SelectFromModel
 
 logfilename = 'log_pipeLine.txt'
 print('LOG File name : log_pipeLine.txt')
@@ -190,22 +191,20 @@ X = data[my_cols]
 y = data['Appliances']
 
 
-# In[25]:
 
 print("using Random forest regression model")
 min_max_scaler = MinMaxScaler()
 X = min_max_scaler.fit_transform(X)
 X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.75, test_size = 0.25)
 
-exported_pipeline = make_pipeline(
-    MinMaxScaler(),
-    RandomForestRegressor(n_estimators = 300, max_features=4)
-)
+exported_pipeline = Pipeline([
+  ('feature_selection', SelectFromModel(ExtraTreesClassifier())),
+  ('scaling', MinMaxScaler()),
+  ('classification', RandomForestRegressor(n_estimators = 300, max_features=4)),
+
+])
 
 exported_pipeline.fit(X_train, y_train)
-
-
-# In[27]:
 
 
 print ("R-squared for Train: %.2f" %exported_pipeline.score(X_train, y_train))

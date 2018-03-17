@@ -57,3 +57,46 @@
 2018-03-16 20:47:09,700 - DEBUG - R-squared for Train: 0.95
 2018-03-16 20:47:10,031 - DEBUG - R-squared for Test: 0.60
 2018-03-16 20:47:10,031 - DEBUG - Process complete
+2018-03-16 22:51:11,377 - DEBUG - Program Started
+2018-03-16 22:51:11,378 - DEBUG - Loading Data into Dataframe
+2018-03-16 22:51:11,550 - DEBUG - Data Size(19735, 29)
+2018-03-16 22:51:11,550 - DEBUG - Tranforming date time
+2018-03-16 22:51:11,555 - DEBUG - Creating column Day of the week
+2018-03-16 22:51:11,613 - DEBUG - Creating column weekdaytype
+2018-03-16 22:51:14,342 - DEBUG - Creating column activeStatus
+2018-03-16 22:51:16,980 - DEBUG - Creating column Number of seconds to midnight
+2018-03-16 22:51:17,032 - DEBUG - Creating column Season
+2018-03-16 22:51:17,095 - DEBUG - Creating Dummy Column
+2018-03-16 22:51:51,624 - DEBUG - Program Started
+2018-03-16 22:51:51,625 - DEBUG - Loading Data into Dataframe
+2018-03-16 22:51:51,800 - DEBUG - Data Size(19735, 29)
+2018-03-16 22:51:51,800 - DEBUG - Tranforming date time
+2018-03-16 22:51:51,805 - DEBUG - Creating column Day of the week
+2018-03-16 22:51:51,859 - DEBUG - Creating column weekdaytype
+2018-03-16 22:51:54,488 - DEBUG - Creating column activeStatus
+2018-03-16 22:51:57,103 - DEBUG - Creating column Number of seconds to midnight
+2018-03-16 22:51:57,155 - DEBUG - Creating column Season
+2018-03-16 22:51:57,218 - DEBUG - Creating Dummy Column
+2018-03-16 22:52:12,661 - DEBUG - Program Started
+2018-03-16 22:52:12,662 - DEBUG - Loading Data into Dataframe
+2018-03-16 22:52:12,836 - DEBUG - Data Size(19735, 29)
+2018-03-16 22:52:12,836 - DEBUG - Tranforming date time
+2018-03-16 22:52:12,842 - DEBUG - Creating column Day of the week
+2018-03-16 22:52:12,896 - DEBUG - Creating column weekdaytype
+2018-03-16 22:52:15,562 - DEBUG - Creating column activeStatus
+2018-03-16 22:52:18,227 - DEBUG - Creating column Number of seconds to midnight
+2018-03-16 22:52:18,279 - DEBUG - Creating column Season
+2018-03-16 22:52:18,348 - DEBUG - Creating Dummy Column
+2018-03-16 22:52:46,706 - DEBUG - Program Started
+2018-03-16 22:52:46,706 - DEBUG - Loading Data into Dataframe
+2018-03-16 22:52:46,878 - DEBUG - Data Size(19735, 29)
+2018-03-16 22:52:46,878 - DEBUG - Tranforming date time
+2018-03-16 22:52:46,883 - DEBUG - Creating column Day of the week
+2018-03-16 22:52:46,936 - DEBUG - Creating column weekdaytype
+2018-03-16 22:52:49,528 - DEBUG - Creating column activeStatus
+2018-03-16 22:52:52,148 - DEBUG - Creating column Number of seconds to midnight
+2018-03-16 22:52:52,197 - DEBUG - Creating column Season
+2018-03-16 22:52:52,258 - DEBUG - Creating Dummy Column
+2018-03-16 22:53:07,473 - DEBUG - R-squared for Train: 0.95
+2018-03-16 22:53:07,789 - DEBUG - R-squared for Test: 0.59
+2018-03-16 22:53:07,789 - DEBUG - Process complete
